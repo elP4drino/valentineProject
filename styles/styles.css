@@ -3,7 +3,7 @@
 }
 
 .contenedor{
-    background: cadetblue;
+    background: #000000;
     width: 100vw;
     height: 100vh;
     text-align: center;
@@ -12,11 +12,17 @@
 p{
     font-size: xx-large;
     padding: 15%;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
 }
 
 button{
     font-size: xx-large;
     padding: 0.75em;
+    border-radius: 10px;
+    background-color: #e822f7;
+    border:none;
 }
 
 #yesBtn{
