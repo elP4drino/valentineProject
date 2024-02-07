@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 
 .contenedor{
@@ -11,7 +12,7 @@
 
 p{
     font-size: xx-large;
-    padding: 15%;
+    padding: 4%;
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
@@ -31,4 +32,47 @@ button{
 
 #noBtn{
     position: absolute;
+}
+
+/* Heart Section */
+.container_heart{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    margin-bottom: 4%;
+}
+
+.heart{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: #ff4757;
+    transform:  rotate(-45deg);
+    box-shadow: -10px 10px 90px #ff4757;
+}
+
+.heart:before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -1%;
+    width: 70px;
+    height: 70px;
+    background-color: #ff4757;
+    border-radius: 50%;
+    box-shadow: -10px 10px 90px #ff4757;
+}
+
+.heart:after{
+    content: '';
+    position: absolute;
+    top: 4%;
+    left: 80%;
+    width: 70px;
+    height: 70px;
+    background-color: #ff4757;
+    border-radius: 50%;
+    box-shadow: -10px 10px 90px #ff4757;
 }
