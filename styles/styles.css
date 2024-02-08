@@ -126,6 +126,8 @@ button{
     height: 40%;
     border-radius: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .imag{
