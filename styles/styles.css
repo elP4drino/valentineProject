@@ -19,7 +19,7 @@ body{
 }
 
 p{
-    font-size: 2em;
+    font-size: 1.9rem;
     padding: 4%;
     color: aliceblue;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -57,8 +57,8 @@ button{
 
 .heart{
     position: relative;
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
     background-color: #ff4757;
     transform:  rotate(-45deg);
     box-shadow: -10px 10px 60px #ff4757;
@@ -130,10 +130,11 @@ button{
 
 .modal-content p{
     color: #000000;
+    font-size: 3rem;
 }
 
 .modal-content .loveImage{
-    width: 30%;
+    width: 35%;
 }
 
 .close {
