@@ -136,7 +136,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .modal-content p{
