@@ -131,6 +131,7 @@ button{
 .imag{
     width: 100%;
     height: 50%;
+    margin: auto 0 auto 0;
 }
 
 .modal-content p{
