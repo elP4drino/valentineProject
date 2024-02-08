@@ -119,7 +119,7 @@ button{
 
 .modal-content {
     background-color: #fefefe;
-    margin:5% 15% 5% 15%;
+    margin:5% auto 5% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 70%;
