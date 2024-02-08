@@ -1,9 +1,12 @@
 const yesBtn = document.querySelector('#yesBtn');
 const modal = document.getElementById('myModal');
 
-yesBtn.addEventListener('click',function () {
+yesBtn.addEventListener('click', function () {
     modal.style.display = 'block';
-});
+  
+  });
+  
+  
 
 const noBtn = document.querySelector('#noBtn');
 
