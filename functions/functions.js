@@ -1,7 +1,8 @@
 const yesBtn = document.querySelector('#yesBtn');
+const modal = document.getElementById('myModal');
 
 yesBtn.addEventListener('click',function () {
-    alert('Sabia que ibas a decir que si uwu')
+    modal.style.display = 'block';
 });
 
 const noBtn = document.querySelector('#noBtn');
@@ -13,3 +14,8 @@ noBtn.addEventListener('mouseover', function () {
     noBtn.style.setProperty('left',randomX+'%');
     noBtn.style.setProperty('transform',`translate(-${randomX}%,-${randomY}%)`);
 })
+
+// Close the modal function
+function closeModal() {
+    modal.style.display = 'none';
+}
