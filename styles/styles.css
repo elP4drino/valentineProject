@@ -57,8 +57,8 @@ button{
 
 .heart{
     position: relative;
-    width: 12rem;
-    height: 12rem;
+    width: 12em;
+    height: 12em;
     background-color: #ff4757;
     transform:  rotate(-45deg);
     box-shadow: -10px 10px 60px #ff4757;
@@ -85,8 +85,8 @@ button{
     position: absolute;
     top: -50%;
     left: -0%;
-    width: 12rem;
-    height: 12rem;
+    width: 12em;
+    height: 12em;
     background-color: #ff4757;
     border-radius: 50%;
     box-shadow: -10px -10px 60px #ff4757;
@@ -97,8 +97,8 @@ button{
     position: absolute;
     top: 0%;
     left: 50%;
-    width: 12rem;
-    height: 12rem;
+    width: 12em;
+    height: 12em;
     background-color: #ff4757;
     border-radius: 50%;
     box-shadow: 10px 10px 60px #ff4757;
